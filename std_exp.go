@@ -16,7 +16,7 @@ import (
  * https://www.jstatsoft.org/v05/i08/paper [pdf]
  *
  * Fixed correlation and increased number of distinct results generated,
- * see https://github.com/flyingmutant/rand/issues/3
+ * see https://github.com/kokizzu/rand/issues/3
  */
 
 const (

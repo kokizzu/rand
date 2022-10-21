@@ -10,9 +10,11 @@ package rand_test
 
 import (
 	"bytes"
-	"pgregory.net/rand"
-	"pgregory.net/rapid"
 	"testing"
+
+	"pgregory.net/rapid"
+
+	"github.com/kokizzu/rand"
 )
 
 func BenchmarkShuffle(b *testing.B) {

@@ -2,7 +2,7 @@
 
 Fast, high quality alternative to `math/rand` and `golang.org/x/exp/rand`.
 
-Compared to these packages, `pgregory.net/rand`:
+Compared to these packages, `github.com/kokizzu/rand`:
 
 - is API-compatible with all `*rand.Rand` methods,
 - is significantly faster, while improving the generator quality,
@@ -163,9 +163,9 @@ Dislike for global mutable state. Also, without some kind of thread-local state 
 very slow (because global state needs to be mutex-protected). If you like the
 convenience of top-level functions, `math/rand` is a fine choice. And if you just need
 a couple of random integers and don't care about the performance, `rand.New().Int()` works too.
-As an exception, [`rand.Uint64()`](https://pkg.go.dev/pgregory.net/rand#Uint64),
-[`rand.Intn()`](https://pkg.go.dev/pgregory.net/rand#Intn) and
-[`rand.Float64()`](https://pkg.go.dev/pgregory.net/rand#Float64) are provided to ease
+As an exception, [`rand.Uint64()`](https://pkg.go.dev/github.com/kokizzu/rand#Uint64),
+[`rand.Intn()`](https://pkg.go.dev/github.com/kokizzu/rand#Intn) and
+[`rand.Float64()`](https://pkg.go.dev/github.com/kokizzu/rand#Float64) are provided to ease
 porting of applications relying on a global random number generator that is safe for
 concurrent use.
 
@@ -208,16 +208,16 @@ Very fast, but relatively new and untested. Also, no guarantees about the period
 
 ## Status
 
-`pgregory.net/rand` is preparing for stable 1.0 release. Deterministic pseudo-random
+`github.com/kokizzu/rand` is preparing for stable 1.0 release. Deterministic pseudo-random
 generation produces the same results on 32-bit and 64-bit architectures, both little-endian
 and big-endian. After 1.0, any observable change to these results would only occur together
 with a major version bump.
 
 ## License
 
-`pgregory.net/rand` is licensed under the [Mozilla Public License Version 2.0](./LICENSE). 
+`github.com/kokizzu/rand` is licensed under the [Mozilla Public License Version 2.0](./LICENSE). 
 
-[godev-img]: https://pkg.go.dev/badge/pgregory.net/rand
-[godev]: https://pkg.go.dev/pgregory.net/rand
-[ci-img]: https://github.com/flyingmutant/rand/workflows/CI/badge.svg
-[ci]: https://github.com/flyingmutant/rand/actions
+[godev-img]: https://pkg.go.dev/badge/github.com/kokizzu/rand
+[godev]: https://pkg.go.dev/github.com/kokizzu/rand
+[ci-img]: https://github.com/kokizzu/rand/workflows/CI/badge.svg
+[ci]: https://github.com/kokizzu/rand/actions

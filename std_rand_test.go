@@ -12,10 +12,11 @@ import (
 	"io"
 	"math"
 	"os"
-	. "pgregory.net/rand"
 	"runtime"
 	"testing"
 	"testing/iotest"
+
+	. "github.com/kokizzu/rand"
 )
 
 const (

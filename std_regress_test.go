@@ -14,9 +14,10 @@ package rand_test
 import (
 	"flag"
 	"fmt"
-	. "pgregory.net/rand"
 	"reflect"
 	"testing"
+
+	. "github.com/kokizzu/rand"
 )
 
 var (

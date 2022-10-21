@@ -8,9 +8,10 @@ package rand_test
 
 import (
 	"math/bits"
-	"pgregory.net/rand"
 	"sync/atomic"
 	"testing"
+
+	"github.com/kokizzu/rand"
 )
 
 const (

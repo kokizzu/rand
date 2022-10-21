@@ -10,15 +10,17 @@ import (
 	"encoding/binary"
 	"flag"
 	"fmt"
-	"github.com/valyala/fastrand"
-	exprand "golang.org/x/exp/rand"
 	"hash/maphash"
 	"log"
 	"math"
 	"math/bits"
 	mathrand "math/rand"
 	"os"
-	"pgregory.net/rand"
+
+	"github.com/valyala/fastrand"
+	exprand "golang.org/x/exp/rand"
+
+	"github.com/kokizzu/rand"
 )
 
 const (

@@ -11,8 +11,9 @@ import (
 	"fmt"
 	"math"
 	"math/bits"
-	"pgregory.net/rand"
 	"testing"
+
+	"github.com/kokizzu/rand"
 )
 
 var (

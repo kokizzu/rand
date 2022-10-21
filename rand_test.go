@@ -12,9 +12,11 @@ import (
 	"bytes"
 	"math"
 	"math/bits"
-	"pgregory.net/rand"
-	"pgregory.net/rapid"
 	"testing"
+
+	"pgregory.net/rapid"
+
+	"github.com/kokizzu/rand"
 )
 
 var (
