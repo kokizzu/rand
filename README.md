@@ -2,11 +2,11 @@
 
 Forked version because cannot import:
 ```
-	github.com/flyingmutant/rand: github.com/flyingmutant/rand@v0.2.7: parsing go.mod:
-	module declares its path as: pgregory.net/rand
-	        but was required as: github.com/flyingmutant/rand
+github.com/flyingmutant/rand: github.com/flyingmutant/rand@v0.2.7: parsing go.mod:
+module declares its path as: pgregory.net/rand
+        but was required as: github.com/flyingmutant/rand
 
-	pregory.net/rand: cannot find module providing package pregory.net/rand: unrecognized import path "pregory.net/rand": https fetch: Get "https://pregory.net/rand?go-get=1": dial tcp: lookup pregory.net: no such host
+pregory.net/rand: cannot find module providing package pregory.net/rand: unrecognized import path "pregory.net/rand": https fetch: Get "https://pregory.net/rand?go-get=1": dial tcp: lookup pregory.net: no such host
 ```
 
 This one uses `import "github.com/kokizzu/rand"`, contact [original creator](//github.com/flyingmutant/rand) if you have issues or patch
